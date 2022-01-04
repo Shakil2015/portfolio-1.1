@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Playfair Display', serif;
+  padding: 0;
+  margin: 0;
+}
+.flex-box {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+/* welcome start */
+
+.welcome {
+  background-image: url(/images/top-banner.png);
+  background-repeat: no-repeat;
+  width: 100%;
+  padding: 5%;
+}
+.welcome-left {
+  width: 50%;
+}
+.welcome-right {
+  width: 50%;
+}
+.welcome-right img {
+  width: 80% !important;
+}
+.welcome h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.welcome h2 {
+  font-size: 35px;
+  font-family: bold;
+}
+.welcome #author {
+  color: orange;
+}
+.welcome p {
+  word-spacing: 2px;
+}
+.welcome a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 3% 6%;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 5px;
+  background-image: linear-gradient(orange, tomato);
+}
+
+/* welcome end */
+
+/* dream-big start */
+.dream-big {
+  width: 100%;
+}
+.dream-big-left {
+  width: 50%;
+  padding-left: 5%;
+}
+.dream-big-left img {
+  width: 80%;
+}
+.dream-big-right {
+  background-image: url(/images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-size: 25%;
+  width: 50%;
+  padding-right: 10%;
+}
+.dream-big-right a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 3% 6%;
+  font-weight: 700;
+  word-spacing: 2px;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-image: linear-gradient(orange, tomato);
+}
+.dream-big-right h2 {
+  font-size: 35px;
+  font-weight: 700;
+}
+.dream-big-right h3 {
+  font-weight: 700;
+}
+.dream-big-right p {
+  word-spacing: 2px;
+}
+/* dream-big end */
