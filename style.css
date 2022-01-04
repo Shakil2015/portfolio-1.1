@@ -97,3 +97,54 @@ body {
   word-spacing: 2px;
 }
 /* dream-big end */
+
+/* experiences start */
+.experiences {
+  width: 100%;
+}
+.experiences h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.experiences-1 {
+  width: 100%;
+  background-image: url(/images/exp-bg.png);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-size: 12%;
+}
+.experiences-1 h3 {
+  color: orange;
+  font-size: 25px;
+}
+.experiences-1-left {
+  width: 40%;
+  padding: 3%;
+  margin-left: 7%;
+  margin-right: 5%;
+  border-left: 5px solid;
+  border-image: linear-gradient(blue, red);
+  border-image-slice: 1;
+  box-shadow: 5px 8px 15px 10px grey;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.experiences-1-right {
+  width: 40%;
+  padding: 3%;
+  margin-left: 7%;
+  margin-right: 5%;
+  border-left: 5px solid;
+  border-image: linear-gradient(orange, tomato);
+  border-image-slice: 1;
+  box-shadow: 5px 8px 15px 10px grey;
+  border-radius: 5px;
+}
+/* experiences end */
+
+/* footer start */
+footer p {
+  text-align: center;
+  font-weight: bold;
+}
+/* footer end */
